@@ -40,9 +40,9 @@ export async function getData(array: Array<string>): Promise<any[]> {
     return returnPromise;
 };
 
-const loadData = async (url?: Response | String | Array<string>) => {
+const loadData = async (url?: Array<string>) => {
     try {
-        let data = await getData(URLS);
+        let data = await getData(url);
         return data.forEach(response => response.json())
     } catch (error) {
         console.error(error);
