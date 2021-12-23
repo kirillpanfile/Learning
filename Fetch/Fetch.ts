@@ -1,6 +1,6 @@
 //? Fetch implementation in TypeScript
 //* For understanding how interface works
-
+//! Works only with node-fetch v2.6
 
 import fetch from "node-fetch";
 
