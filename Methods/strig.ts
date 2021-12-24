@@ -14,5 +14,7 @@ console.log(stringOne.concat(stringTwo)); //* This is the first stringThis is th
 console.log(stringOne.endsWith("ng")); //* true
 
 // fromCharCode()
-
 console.log(String.fromCharCode(84)); //* T
+
+//includes()
+console.log(stringTwo.includes("sec")); //* true
