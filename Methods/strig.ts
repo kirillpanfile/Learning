@@ -37,5 +37,23 @@ console.log(stringOne.search("the")); //* 8
 //slice()
 console.log(stringTwo.slice(2, 4)); //* is
 
-//split
+//split()
 console.log(stringOne.split(' ')); //* [ 'This', 'is', 'the', 'first', 'string' ]
+
+
+//startsWith()
+console.log(stringTwo.startsWith("This")); //* true
+
+//substr()
+console.log(stringTwo.substr(1, 8)); //* his is t
+
+//substring()
+console.log(stringTwo.substring(1, 8)); //* his is
+
+//toUpperCase()
+console.log(stringOne.toUpperCase()); //* THIS IS THE FIRST STRING
+
+//toLowerCase()
+console.log(stringOne.toLowerCase()); //* this is the first string
+
+
