@@ -18,3 +18,15 @@ console.log(String.fromCharCode(84)); //* T
 
 //includes()
 console.log(stringTwo.includes("sec")); //* true
+
+//indexOf()
+console.log(stringOne.indexOf('first')); //* 12
+
+//lastIndexOf()
+console.log(stringOne.lastIndexOf('first')); //* 12
+
+//match()
+console.log(stringTwo.match(/second/g)); //*  ['second']
+
+//repeat()
+console.log(stringTwo.repeat(3)); //* This is the second stringThis is the second stringThis is the second string
