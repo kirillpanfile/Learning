@@ -30,3 +30,12 @@ console.log(stringTwo.match(/second/g)); //*  ['second']
 
 //repeat()
 console.log(stringTwo.repeat(3)); //* This is the second stringThis is the second stringThis is the second string
+
+//search()
+console.log(stringOne.search("the")); //* 8
+
+//slice()
+console.log(stringTwo.slice(2, 4)); //* is
+
+//split
+console.log(stringOne.split(' ')); //* [ 'This', 'is', 'the', 'first', 'string' ]
